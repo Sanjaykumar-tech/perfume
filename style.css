@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+
+}
+
+li,h1,ul{
+    display: inline;
+}
+
+ul{
+    margin-left: 60%;
+}
+
+li{
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover{
+   color: white; 
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+}
+
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.box{
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    
+}
+
+.box:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.products{
+    text-align: center;
+}
+
+.about{
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    padding: 14px;
+
+}
+
+@media (max-width: 600px) {
+    nav ul{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 80%; /* Adjusts width to fit smaller screens */
+    }
+
+    .searchbar {
+        padding: 20px;
+    }
+}
